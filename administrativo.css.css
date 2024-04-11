@@ -1,0 +1,172 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: initial;  
+}
+
+body
+{
+    
+    background-color: #fff;
+}
+.logo img
+{
+height:170px;
+margin: 10px;
+width: 60%;
+border-radius: 50%;
+top: 10px;
+
+}
+header
+
+{
+ display: flex;
+ width: 100%;
+ height: 100%;
+ align-items: center;
+ z-index: 1000;
+ justify-content: space-between;
+ background-color: #000;
+
+}
+.naveg
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+.naveg li 
+{
+   display: inline-block;
+   padding:8px 100px;
+   color: #fff;
+   text-decoration: none;
+}
+.naveg a 
+{
+    text-decoration: none ;
+    color: #fff;
+}
+.naveg li ul
+{
+ display:none;
+ position: absolute;
+ min-width: 140px;
+
+}
+.naveg li:hover > ul
+{
+  display: block;
+}
+
+
+
+.nu
+{
+    background-color: darkgray;
+}
+.li p
+{
+    position: relative;
+    left: 50%;
+    top: 80px;
+
+}
+.li h1
+{
+    position: relative;
+    left: 60%;
+    top: 75px;
+}
+img
+{ 
+    height: 300px;
+    position: relative;
+    bottom: 50px;
+    left: 10%;
+
+
+
+}
+.c p
+{
+ position: relative;
+ top: 200px;
+ left: 20%;
+}
+.c h2
+{
+    position: relative;
+    left: 20%;
+    top: 150px;
+}
+.i img 
+{
+ position:relative;
+ left: 50%;
+ bottom: 30px;
+}
+.galeria{
+    background-color:#fff;
+    padding: 89px 0 25px 0;
+    
+ }
+ .galeria .imagen:hover
+ {
+    background: #000;
+ }
+
+ 
+ .ht
+ {
+ 
+    position: absolute;
+     left: 35%;
+    font-weight: 600%;
+    font-size: 4rem;
+    text-shadow:0px 2px 7px  #e4cdd9;
+    
+  
+
+ }
+ 
+
+
+ .contenedor-imagenes{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+    
+   
+    
+    
+ }
+ .contenedor:hover
+ {
+    background: #E1DCDD;
+ }
+
+.contenedor-imagenes .imagen {
+   width: 28%;
+   position: relative;
+   height: 260px;
+   box-shadow: 0px 0px 3px 0px rgba(0, 0, 0,.75);
+   margin-top: 20px;
+   border: #E1DCDD solid ;
+
+
+}
+.imagen img{
+    width:80%;
+    height: 250px;
+    object-fit: cover;
+    margin-top: 50px;
+     right: 10%;
+}

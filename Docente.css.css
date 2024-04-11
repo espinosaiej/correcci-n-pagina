@@ -1,0 +1,272 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: initial;  
+}
+
+body
+{
+    
+    background-color: #fff;
+}
+
+
+
+.logo img
+{
+margin: 10px;
+width: 30%;
+border-radius: 50%;
+top: 10px;
+
+}
+header
+
+{
+ display: flex;
+ width: 100%;
+ height: 100%;
+ align-items: center;
+ z-index: 1000;
+ justify-content: space-between;
+ background-color: #000;
+
+}
+.naveg
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+.naveg li 
+{
+   display: inline-block;
+   padding:8px 100px;
+   color: #fff;
+   text-decoration: none;
+}
+.naveg a 
+{
+    text-decoration: none ;
+    color: #fff;
+}
+.naveg li ul
+{
+ display:none;
+ position: absolute;
+ min-width: 140px;
+
+}
+.naveg li:hover > ul
+{
+  display: block;
+}
+
+.wind p
+{
+    position: relative;
+    left: 65%;
+    top: 160px;
+
+}
+.wind h1
+{
+    position: relative;
+    left: 65%;
+    top: 140px;
+}
+img
+{
+    position: relative;
+    bottom: 50px;
+    left: 10%;
+
+
+
+}
+.class p
+{
+ position: relative;
+ top: 100px;
+ left: 20%;
+}
+.class h2
+{
+    position: relative;
+    top: 90px;
+    left: 20%;
+}
+.img img 
+{
+  height:300px ;
+  position:relative;
+  left: 50%;
+  bottom: 60px;
+}
+.instala h2 
+{
+    position: relative;
+    left: 68%;
+    top: 85px;
+
+}
+.instala p 
+{
+    position: relative;
+    top: 100px;
+    left: 65%;
+}
+.requisi h2
+{
+position: relative;
+left: 16%;
+top:70px ;
+}
+.requisi p
+{
+    position: relative;
+    top: 80px;
+    left: 10%;
+}
+.im img
+{
+ height: 300px;
+ position: relative;
+ left: 60%;
+}
+.go h2
+{
+    position: relative;
+    left: 65%;
+    top: 140px;
+}
+.go p
+{
+    position: relative;
+    left: 65%;
+    top: 160px;
+}
+.i img
+{   height:300px;
+    position: relative;
+    bottom: 50px;
+    left: 10%;
+}
+.pro h2
+{
+    position: relative;
+    left: 10%;
+    top:70px ;
+}
+.pro p
+{
+    position: relative;
+    top: 100px;
+    left: 10%;
+}
+.uh img
+{
+    height: 350px;
+    position: relative;
+    left: 60%;
+}
+.st h2
+{
+    position: relative;
+    left: 65%;
+    top: 140px;
+}
+.st p
+{
+    position: relative;
+    left: 65%;
+    top: 160px;
+}
+.tu img
+{   
+    
+    height:300px;
+    position: relative;
+    bottom: 50px;
+    left: 10%;
+}
+.de h2
+{
+    position: relative;
+    left: 10%;
+    top:70px ;
+}
+.de p
+{
+  
+    position: relative;
+    top: 100px;
+    left: 10%;  
+}
+.op img
+{
+    height: 300px;
+    position: relative;
+    left: 60%;
+}
+.da h2
+{
+    position: relative;
+    left: 65%;
+    top: 140px;
+}
+.da p
+{   
+    position: relative;
+    left: 65%;
+    top: 160px; 
+}
+.yo img 
+{
+    
+    height:300px;
+    position: relative;
+    bottom: 50px;
+    left: 10%;
+}
+.es h2
+{
+    position: relative;
+    left: 10%;
+    top:70px ;
+}
+.es p
+{
+    position: relative;
+    top: 100px;
+    left: 10%; 
+}
+.y img
+{
+     
+    height: 300px;
+    position: relative;
+    left: 70%;
+}
+.tr h2
+{
+    position: relative;
+    left: 65%;
+    top: 140px;
+}
+.tr p
+{
+    position: relative;
+    left: 65%;
+    top: 160px;
+}
+.x img
+{
+    height:300px;
+    position: relative;
+    bottom: 50px;
+    left: 10%;
+}

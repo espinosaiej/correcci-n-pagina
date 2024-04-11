@@ -1,0 +1,165 @@
+*
+{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: initial;
+ 
+}
+body
+{
+    
+    background-color: #fff;
+}
+
+
+
+.logo img
+{
+margin: 10px;
+width: 30%;
+border-radius: 50%;
+}
+header
+
+{
+ display: flex;
+ width: 100%;
+ height: 100%;
+ align-items: center;
+ z-index: 1000;
+ justify-content: space-between;
+ background-color: #000;
+
+}
+.naveg
+{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
+}
+.naveg li 
+{
+   display: inline-block;
+   padding:8px 100px;
+   color: #fff;
+   text-decoration: none;
+}
+.naveg a 
+{
+    text-decoration: none ;
+    color: #fff;
+}
+.naveg li ul
+{
+ display:none;
+ position: absolute;
+ min-width: 140px;
+
+}
+.naveg li:hover > ul
+{
+  display: block;
+}
+.principio
+{
+    background-color: darkgray;
+}
+
+.Inicio h1 
+{
+    position: relative;
+    left: 60%;
+    top: 50px;
+}
+.Inicio p
+{
+    position: relative;
+    left: 50%;
+    top: 50px;
+
+}
+.Inicio img
+{
+ width: 30%;
+ position: relative;
+ left: 3%;
+ bottom: 120px;
+}
+.Segundo
+{
+    background-color:#fff;
+}
+.infor h2
+{
+ position: relative;
+ left: 13%;
+ top: 100px;
+}
+.infor p
+{
+    position: relative;
+    top: 120px;
+}
+.infor img
+{
+ width: 30%;
+ position: relative;
+ left: 60%;
+ bottom: 250px;
+}
+.tercero
+{
+  background-color: darkgray;
+}
+.info h2
+{
+ position: relative;
+ left: 45%;
+ top: 200px;
+}
+.info p
+{
+    position: relative;
+    left: 45%;
+    top: 220px;
+}
+.info img
+{
+ width: 30%;
+ position: relative;
+ left: 3%;
+}
+.fooster img
+{
+    width: 40%;
+    position: relative;
+    top: 10px;
+}
+.pie-pagina
+
+{
+    background-color:#fff;
+    margin-top: 10%;
+
+}
+
+.fooster
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+
+}
+.sobre p
+{
+    position: relative;
+    bottom: 13%;
+    left: 8%;
+}
+.sociales i
+{
+ margin: 5%;
+ width: 10%;
+
+}
